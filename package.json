@@ -1,0 +1,30 @@
+{
+  "name": "crypto-coin-me",
+  "version": "1.0.0",
+  "description": "A crypto crowd sourcing application built with React, Solidity, and Ethereum deployed on the Rinkeby Test Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pporche87/crypto-coin-me.git"
+  },
+  "author": "Patrick Porche <pporche87@gmail.com> (http://pporche87.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pporche87/crypto-coin-me/issues"
+  },
+  "homepage": "https://github.com/pporche87/crypto-coin-me#readme",
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "ganache-cli": "^6.0.3",
+    "mocha": "^5.0.0",
+    "next": "^4.1.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "solc": "^0.4.19",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.26"
+  }
+}
